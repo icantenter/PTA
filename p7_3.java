@@ -11,3 +11,6 @@ public class p7_3 {
         return a * foo(a - 1);
     }
 }
+//递归
+//函数用static修饰的原因 https://www.cnblogs.com/manhuidhu/p/7217163.html
+//优先级4

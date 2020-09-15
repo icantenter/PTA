@@ -14,8 +14,11 @@ public class p7_1 {
     }
 
     private static int _gcd(int a, int b) {
+        //a % b得到余数
         if (a % b == 0)
             return b;
         return _gcd(b, a % b);
     }
 }
+//Scanner类 https://www.runoob.com/java/java-scanner-class.html
+//函数_gcd原理 https://baike.baidu.com/item/最大公约数/869308?fr=aladdin

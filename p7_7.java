@@ -30,3 +30,5 @@ public class p7_7 {
         scan.close();
     }
 }
+//这里的逆序是数字摆放位置。string直接反向数字会颠倒
+//优先度9

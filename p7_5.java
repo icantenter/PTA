@@ -26,3 +26,5 @@ public class p7_5 {
         scan.close();
     }
 }
+//冒泡排序
+//优先级9

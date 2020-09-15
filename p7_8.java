@@ -10,3 +10,6 @@ public class p7_8 {
     }
 
 }
+//public String substring(int beginIndex, int endIndex)
+//public String substring(int beginIndex)
+//优先级8

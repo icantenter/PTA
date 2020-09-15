@@ -48,4 +48,5 @@ public class p7_10 {
         }
     }
 }
-
+//函数用static修饰的原因 https://www.cnblogs.com/manhuidhu/p/7217163.html
+//用static修饰类？

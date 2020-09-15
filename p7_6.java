@@ -20,5 +20,9 @@ public class p7_6 {
         System.out.println("对角线之和是：" + sum);
         scan.close();
     }
-
 }
+
+//行i,列j
+//i == j时,左上到右下
+//i + j = size - 1时右上到左下
+//矩阵对角线之和 https://blog.csdn.net/weixin_44018859/article/details/88379073

@@ -7,8 +7,8 @@ public class p7_4 {
         String num;
         num = scan.next();
         for (int i = 0; i < 2; i++) {
-            char a = (char) num.charAt(i);
-            char b = (char) num.charAt(4 - i);
+            char a = num.charAt(i);
+            char b = num.charAt(4 - i);
             if (a != b) {
                 System.out.println("这不是一个回文数");
                 return ;
@@ -18,3 +18,5 @@ public class p7_4 {
         scan.close();
     }
 }
+//Java 获取字符串指定下标位置的值 charAt() https://www.runoob.com/java/java-string-charat.html
+//优先级9
