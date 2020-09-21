@@ -20,5 +20,6 @@ public class p7_1 {
         return _gcd(b, a % b);
     }
 }
+//优先级6
 //Scanner类 https://www.runoob.com/java/java-scanner-class.html
 //函数_gcd原理 https://baike.baidu.com/item/最大公约数/869308?fr=aladdin

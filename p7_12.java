@@ -34,4 +34,9 @@ public class p7_12 {
 
 }
 
-//1. 接口作为参数 http://www.jufanshare.com/content/70.html
+//优先级8
+
+/*
+1. 接口作为参数 
+http://www.jufanshare.com/content/70.html
+*/

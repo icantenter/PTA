@@ -29,6 +29,18 @@ public class p7_9 {
         scan.close();
     }
 }
-//模拟 优先级 9
-// java 数组填充Array.fill(arrayname, value) https://www.runoob.com/java/arrays-fill.html
-//约瑟夫问题 https://baike.baidu.com/item/约瑟夫问题/3857719?fromtitle=%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF&fromid=348830&fr=aladdin
+//优先级 9
+
+/*
+1.考试主要考虑模拟  
+*/
+
+/*
+2.java 数组填充Array.fill(arrayname, value) 
+https://www.runoob.com/java/arrays-fill.html
+*/
+
+/*
+3.约瑟夫问题 
+https://baike.baidu.com/item/约瑟夫问题/3857719?fromtitle=%E7%BA%A6%E7%91%9F%E5%A4%AB%E7%8E%AF&fromid=348830&fr=aladdin
+*/

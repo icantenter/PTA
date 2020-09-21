@@ -42,7 +42,7 @@ class student{
 		this.name = name;
 		this.subject = subject;
 	}
-	public String toString() {
+	public String toString() {//注释1
 		return  "    学生编号:" + this.no + ",学生姓名:" + this.name;
 	}
 }
@@ -103,3 +103,9 @@ public class p7_16 {
 		}
 	}
 }
+//优先级 9
+
+/*
+1. toString方法 
+https://www.cnblogs.com/huan-guo/p/8404891.html
+*/

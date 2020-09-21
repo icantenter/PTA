@@ -38,5 +38,9 @@ public class p7_14 {
         scan.close();
     }
 }
-//1. 数字格式化输出 https://www.cnblogs.com/hq233/p/6539107.html
 //优先度 8
+
+/*
+1. 数字格式化输出 
+https://www.cnblogs.com/hq233/p/6539107.html
+*/

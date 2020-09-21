@@ -9,7 +9,7 @@ public class p7_5 {
         for (int i = 0; i < 10; i++) {
             numbers[i] = scan.nextInt();
         }
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 9; i++) {//注释1
             for (int j = 0; j < 9 - i; j++) {
                 if (numbers[j] > numbers[j + 1]) {
                     int temp = numbers[j];
@@ -26,5 +26,8 @@ public class p7_5 {
         scan.close();
     }
 }
-//冒泡排序
 //优先级9
+
+/*
+1. 冒泡排序
+*/

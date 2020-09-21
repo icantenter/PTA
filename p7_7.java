@@ -20,7 +20,7 @@ public class p7_7 {
         }
         
         System.out.println("数组逆序输出为：");
-        for (int i = size - 1; i >= 0; i--) {
+        for (int i = size - 1; i >= 0; i--) {//注释1
             System.out.print(source[i]);
             if (i == 0)
                 break;
@@ -30,5 +30,8 @@ public class p7_7 {
         scan.close();
     }
 }
-//这里的逆序是数字摆放位置。string直接反向数字会颠倒
 //优先度9
+
+/*
+1.这里的逆序是数字摆放位置。string直接反向数字会颠倒
+*/

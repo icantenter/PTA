@@ -37,3 +37,4 @@ public class p7_11 {
         scan.close();
     }
 }
+//优先级4

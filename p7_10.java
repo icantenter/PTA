@@ -51,5 +51,12 @@ class Rect{
         return 2 * (width + height);
     }
 }
-//static只能修饰内部类 https://zhidao.baidu.com/question/1964339938962462860.html
-//一个文件可以有多个类，但只能有一个public类
+//优先级 4
+/*
+1.static只能修饰内部类 
+https://zhidao.baidu.com/question/1964339938962462860.html
+*/
+
+/*
+2.一个文件可以有多个类，但只能有一个public类
+*/
