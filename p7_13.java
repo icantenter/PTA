@@ -26,3 +26,4 @@ public class p7_13 {
         scan.close();
     }
 }
+//优先度4

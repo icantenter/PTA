@@ -25,7 +25,7 @@ public class p7_15 {
         }
 
         // Person
-        public String toString() {
+        public String toString() {//注释1
             return "name=" + name + ", age=" + age + ", gender=" + gender + ", ";
         }
     }
@@ -93,3 +93,4 @@ public class p7_15 {
             System.out.println(stu[i]);
     }
 }
+//1. toString方法 https://www.cnblogs.com/huan-guo/p/8404891.html

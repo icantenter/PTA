@@ -33,8 +33,10 @@ public class p7_14 {
         double height = scan.nextDouble();
 
         Rectangle rect = new Rectangle(width, height);
-        System.out.println(new DecimalFormat("#.##").format(rect.getArea()));
+        System.out.println(new DecimalFormat("#.##").format(rect.getArea()));//注释1
         System.out.println(new DecimalFormat("#.##").format(rect.getPerimeter()));
         scan.close();
     }
 }
+//1. 数字格式化输出 https://www.cnblogs.com/hq233/p/6539107.html
+//优先度 8
