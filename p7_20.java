@@ -24,3 +24,9 @@ public class p7_20 {
         scan.close();
     }
 }
+//优先度8
+
+/*
+1.异常抛出
+https://www.runoob.com/java/java-exceptions.html
+*/
