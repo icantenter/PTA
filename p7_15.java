@@ -2,8 +2,9 @@ import java.util.*;
 
 public class p7_15 {
     static class Person {
+        private int number;
         private String name;// 姓名
-        private int age;// 年龄
+        private String birth;// 年龄
         private String gender;// 性别
 
         public void setName(String name) {
@@ -11,10 +12,10 @@ public class p7_15 {
         }
 
         /**
-         * @param age the age to set
+         * @param birth the birth to set
          */
-        public void setAge(int age) {
-            this.age = age;
+        public void setAge(String birth) {
+            this.birth = birth;
         }
 
         /**
@@ -26,17 +27,18 @@ public class p7_15 {
 
         // Person
         public String toString() {//注释1
-            return "name=" + name + ", age=" + age + ", gender=" + gender + ", ";
+            return "name=" + name + ", birth=" + birth + ", gender=" + gender + ", ";
         }
     }
 
     static class Teacher extends Person {
         private float salary;// 薪酬
         private String department;// 部门
+        private String title;
 
-        Teacher(String name, int age, String gender, float salary, String department) {
+        Teacher(String name, String birth, String gender, float salary, String department) {
             super.name = name;
-            super.age = age;
+            super.birth = birth;
             super.gender = gender;
             this.salary = salary;
             this.department = department;
@@ -51,6 +53,8 @@ public class p7_15 {
 
     static class Student extends Person {
         private int[] score;// 成绩
+        private String field;
+        private int stu_class;
         private String grade;// 年级
 
         /**
@@ -74,17 +78,17 @@ public class p7_15 {
     }
 
     public static void main(String[] args) {
-        Person teacher = new Teacher("Jason", 28, "男", 10000, "外国语学院");
+        Person teacher = new Teacher("Jason", "28", "男", 10000, "外国语学院");
         Student stu[] = new Student[5];
         for (int i = 0; i < 5; i++)
             stu[i] = new Student();
         stu[0].setName("张三");
-        stu[0].setAge(18);
+        stu[0].setAge("18");
         stu[0].setGender("男");
         stu[0].setScore(new int[] { 120, 130, 144, 110, 125 });
         stu[0].setGrade("软工2018级");
         stu[1].setName("李四");
-        stu[1].setAge(19);
+        stu[1].setAge("19");
         stu[1].setGender("男");
         stu[1].setScore(new int[] { 112, 123, 122, 144, 125 });
         stu[1].setGrade("软工2018级");

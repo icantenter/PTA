@@ -8,6 +8,7 @@ public class p7_9 {
         int number, out = 0, cur = 0, counter = 0;
 
         Arrays.fill(array, true);
+        System.out.println("输入最开始的人数");
         number = scan.nextInt();
         while (true){
             if (cur == number)

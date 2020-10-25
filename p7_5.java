@@ -9,18 +9,11 @@ public class p7_5 {
         for (int i = 0; i < 10; i++) {
             numbers[i] = scan.nextInt();
         }
-        for (int i = 0; i < 9; i++) {//注释1
-            for (int j = 0; j < 9 - i; j++) {
-                if (numbers[j] > numbers[j + 1]) {
-                    int temp = numbers[j];
-                    numbers[j] = numbers[j + 1];
-                    numbers[j + 1] = temp;
-                }
-            }
-        }
+        Arrays.sort(numbers);//注释1
         for (int i = 0; i < 10; i++) {
             System.out.print(numbers[i]);
-            System.out.print(' ');
+            if (i != 9)
+                System.out.print(' ');
         }
 
         scan.close();
@@ -29,5 +22,6 @@ public class p7_5 {
 //优先级9
 
 /*
-1. 冒泡排序
+1. java自带排序 
+https://blog.csdn.net/whp1473/article/details/79678974
 */
