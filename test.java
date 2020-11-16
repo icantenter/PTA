@@ -30,6 +30,35 @@ public class test {
         scan.close();
     }
 }
+
+import java.io.*;
+import java.net.*;
+class test  
+{
+	public static void main (String[] args) throws Exception
+	{
+	    String strLocal, strSocket;
+	    int a, b, c;
+		Socket socketClient = new Socket("localhost", 8848);
+		
+		BufferReader brInFromUser = new 
+		    BufferReader(new InputStreamReader(System.in));
+		BufferReader brInFromServer = new 
+		    BufferReader(new InputStreamReader(socketClient.getInputStream()));
+	    
+	    DataOutputStream dosOutToServer = new
+	        DataOutputStream(socketClient.getOutputStream());
+	   do{
+	       a = brInFromUser.readInt();
+	       b = brInFromUser.readInt();
+	       c = brInFromUser.readInt();
+	       
+	       dosOutToServer.writeBytes(a);
+	       dosOutToServer.writeBytes(b);
+	       dosOutToServer.writeBytes(c);
+	   }while 
+	}
+}
 //优先级 9
 
 /*
